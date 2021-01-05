@@ -1,0 +1,28 @@
+.info-inicio {
+    margin: 30px 0;
+    margin-right: 30px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.encabezado {
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.cuerpo {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-info{
+    width: 900px;
+    height: 500px;
+    margin-right: 200px;
+    border: solid 3px #009879;
+    border-radius: 5px 5px 0 0;
+}

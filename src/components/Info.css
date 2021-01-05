@@ -1,0 +1,17 @@
+.info-asignaturas {
+    margin: 0 0;
+    text-align: center;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.enunciado {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.instruccion {
+    margin-bottom: 30px;
+}

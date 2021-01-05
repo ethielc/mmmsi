@@ -1,0 +1,26 @@
+.container-elecciones {
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: solid 3px #009879;
+}
+
+.container-elecciones h2 {
+    color: white;
+    font-size: 22px;
+    background-color: #009879;
+    text-align: center;
+}
+.tabla-elecciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabla-elecciones .eleccion-ramo{
+    text-align: left;
+}
+
+.tabla-elecciones .eleccion-sigla {
+    text-align: right;
+}

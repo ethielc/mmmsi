@@ -1,0 +1,8 @@
+.tituloinfo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.fa-university:before {
+    content: "\f19c";
+}

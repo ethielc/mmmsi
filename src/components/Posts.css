@@ -1,0 +1,65 @@
+.table-contenedor {
+    display: flex;
+    margin-right: 50px;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 650px;
+    height: 350px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.content-table thead {
+    background-color: #009879;
+}
+
+.content-table thead tr {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-last-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table td {
+    height: 60px;
+}
+
+.content-table tbody td.vacante {
+    text-align: center;
+}
+
+.th-asignatura, .td-asignatura {
+    width: 400px;
+}
+.th-profe, .td-profe {
+    width: 160px;
+}
+
+.td-detalle {
+    cursor: pointer;
+    text-align: center;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container-elegido {
+    text-align: center;
+}

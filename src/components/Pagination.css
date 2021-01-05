@@ -1,0 +1,37 @@
+.container-pagination {
+    background-color: #009879;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+}
+.page-link {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: .3s linear;
+    color: white;
+    text-decoration: none;
+}
+
+.page-link:focus {
+    border: solid 2px white;
+}
+
+.page-link:hover {
+    border-bottom: 4px solid #fff;
+	transition: all 0.2s ease-out;
+}
+
+.bar {
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #ffffff;
+    bottom:0;
+    left: 0;
+    transition: .4s linear;
+}

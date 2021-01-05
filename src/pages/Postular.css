@@ -1,0 +1,33 @@
+.container-postular {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container-btn-postular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    border: solid 3px #009879;
+}
+
+.container-btn-postular:hover {
+    background-color: #009879;
+}
+
+.btn-postular {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: .3s linear;
+    color: #009879;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-postular:hover {
+    color: white;
+}

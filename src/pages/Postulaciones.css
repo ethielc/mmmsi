@@ -1,0 +1,9 @@
+.container-postulaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-detalle-postulaciones {
+    height: 550px;
+    margin-left: -400px;
+}

@@ -1,0 +1,11 @@
+.contenedor-usuario {
+    display: flex;
+}
+
+.logo-user {
+    height: 200px;
+}
+
+.informacion-user .user-ul {
+    list-style: none;
+}
